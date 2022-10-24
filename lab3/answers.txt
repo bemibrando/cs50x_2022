@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Bubble sort has difference between the best and worse case. When we use sorted text it takes almost the same time as the Merge sort but with other scenarios the time is bigger
+
+sort2 uses: Merge Sort
+
+How do you know?: Merge sort is the fastes option, at worst case the time complexity will be O(nlogn). So, I looked for what always returned the fastes result.
+
+sort3 uses: Selection Sort
+
+How do you know?: Selection sort has the same time complexity in the both the best and worse case scenarios. So the opstion that regardless of the sort returned almost the same execution time would be Selection Sort.

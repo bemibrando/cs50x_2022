@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <cs50.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+int main(int arg, string args[])
+{
+    printf("Hello\n");
+
+    // Check there is only 1 arguments
+    if (arg == 2)
+    {
+        // Check if it's an integer
+        for (int i = 0; i < strlen(args[1]); i++)
+        {
+            if (isdigit(args[1][i]) == 0)
+            {
+                return 1;
+            }
+        }
+        
+        // Get the ceasar key value convert into interget
+        int key = atoi(args[1]);
+
+        // Get text
+        string plaintext = get_string("plaintext: ");
+        printf("ciphertext: ");
+
+        // iterate thrpugh plain text letter by letter
+        int n = strlen(plaintext);
+
+        for (int i = 0; i < n; i++)
+        {
+            if (plaintext[i] >= 'a' && plaintext[i] <= 'z')
+            {
+                printf("%c", (((plaintext[i] - 'a') + key) % 26) + 'a');
+            }
+            else if (plaintext[i] >= 'A' && plaintext[i] <= 'Z')
+            {
+                printf("%c", (((plaintext[i] - 'A') + key) % 26) + 'A');
+            }
+            else
+            {
+                printf("%c", plaintext[i]);
+            }
+        }
+        printf("\n");
+    }
+    else
+    {
+        printf("Usage: ./caesar key\n");
+        return 1;
+    }
+
+    return 0;
+}
