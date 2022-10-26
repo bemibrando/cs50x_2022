@@ -1,4 +1,4 @@
-in#include <stdio.h>
+#include <stdio.h>
 #include <cs50.h>
 #include <stdlib.h>
 #include <string.h>
@@ -37,7 +37,7 @@ int main(int argc, string argv[])
                 return 1;
             }
 
-            string text = get_string("Enter text:");
+            string text = get_string("Enter text: ");
             printf("ciphertext: ");
 
             string key = (argv[1]);

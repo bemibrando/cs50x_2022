@@ -4,7 +4,6 @@
 
 int main(void)
 {
-    printf("hello, world\n");
     int floors = 0;
     bool numbValid = false;
 

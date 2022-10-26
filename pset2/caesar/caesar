@@ -6,8 +6,6 @@
 
 int main(int arg, string args[])
 {
-    printf("Hello\n");
-
     // Check there is only 1 arguments
     if (arg == 2)
     {

@@ -1,4 +1,7 @@
 ﻿# [CS50x 2022 — Introduction to Computer Science](https://cs50.harvard.edu/x/2022/) - Problem Sets 
+<img src="https://img.shields.io/github/last-commit/bemibrando/cs50x_2022?style=for-the-badge" height="24px"> &nbsp; <img src="https://img.shields.io/badge/status-In%20Progress-yellow?style=for-the-badge" height="24px">
+
+
 
 ## Week 1 - C
 
@@ -32,6 +35,14 @@
   - [tideman](pset3/tideman)
 
 ## Week 4 - Memory
+
+- [Problem Set 4: Memory](/pset4)
+
+  - filter :framed_picture:
+    - [less](/pset4/filter/less)
+    - [more](/pset4/filter/more)
+  - [recover](/pset4/recover)
+
 ## Week 5 - Data Structures
 ## Week 6 - Python
 ## Week 7 - SQL
