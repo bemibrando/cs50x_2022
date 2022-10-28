@@ -38,17 +38,10 @@
 
 - [Problem Set 4: Memory](/pset4)
 
-  - filter :framed_picture:
-    - [less](/pset4/filter/less)
-    - [more](/pset4/filter/more)
-  - [recover](/pset4/recover)
+- filter :framed_picture:
+  - [less](/pset4/filter/less)
+  - [more](/pset4/filter/more)
 
-## Week 5 - Data Structures
-## Week 6 - Python
-## Week 7 - SQL
-## Week 8 - HTML, CSS, JavaScript
-## Week 9 - Flask
-## Week 10 - Emoji
 
 ## Useful resources
 - [CS50x - Harvard](https://cs50.harvard.edu/x/2022/)
