@@ -1,49 +1,21 @@
-﻿# [CS50x 2022 — Introduction to Computer Science](https://cs50.harvard.edu/x/2022/) - Problem Sets 
-<img src="https://img.shields.io/github/last-commit/bemibrando/cs50x_2022?style=for-the-badge" height="24px"> &nbsp; <img src="https://img.shields.io/badge/status-In%20Progress-yellow?style=for-the-badge" height="24px">
+﻿# Pset 4: Recover
 
+Implement a program that recovers JPEGs from a forensic image.
 
+## Implementations Details
 
-## Week 1 - C
+Implement a program called `recover` that recovers JPEGs from a forensic image.
 
-- [Lab 1: Population Growth](/lab1)
-
-- [Problem Set 1: C](/pset1)
-
-  - [hello](/pset1/hello)
-  - mario :mushroom:
-    - [less](/pset1/mario/less)
-    - [more](/pset1/mario/more)
-  - [cash](/pset1/cash)
-  - [credit](/pset1/credit)
-
-## Week 2 - Arrays
-
-- [Lab 2: Scrabble](/lab2)
-
-- [Problem Set 2: Arrays](/pset2)
-  - [readability](/pset2/readability)
-  - [caesar](/pset2/caesar)
-  - [substitution](/pset2/substitution)
-
-## Week 3 - Algorithms
-
-- [Lab 3: Sort](/lab3)
-
-- [Problem Set 3: Algorithms](/pset3)
-  - [plurality](pset3/plurality)
-  - [runoff](pset3/runoff)
-  - [tideman](pset3/tideman)
-
-## Week 4 - Memory
-
-- [Problem Set 4: Memory](/pset4)
-  - filter :framed_picture:
-    - [less](/pset4/filter/less)
-    - [more](/pset4/filter/more)
-  - [recover](/pset4/recover)
+- Implement your program in a file called `recover.c` in a directory called `recover`.
+- Your program should accept exactly one command-line argument, the name of a forensic image from which to recover JPEGs.
+- If your program is not executed with exactly one command-line argument, it should remind the user of correct usage, and `main` should return `1`.
+- If the forensic image cannot be opened for reading, your program should inform the user as much, and `main` should return `1`.
+- The files you generate should each be named `###.jpg`, where `###` is a three-digit decimal number, starting with `000` for the first image and counting up.
+- Your program, if it uses `malloc`, must not leak any memory.
 
 ## Useful resources
-- [CS50x - Harvard](https://cs50.harvard.edu/x/2022/)
+
+- [CS50x - Pset 4: Recover](https://cs50.harvard.edu/x/2022/psets/4/recover/)
 
 <br /><br />
 
