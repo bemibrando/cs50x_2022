@@ -8,41 +8,49 @@
 - [Lab 1: Population Growth](/lab1)
 
 - [Problem Set 1: C](/pset1)
-
-  - [hello](/pset1/hello)
-  - mario :mushroom:
+  - [Hello](/pset1/hello)
+  - Mario :mushroom:
     - [less](/pset1/mario/less)
     - [more](/pset1/mario/more)
-  - [cash](/pset1/cash)
-  - [credit](/pset1/credit)
+  - [Cash](/pset1/cash)
+  - [Credit](/pset1/credit)
 
 ## Week 2 - Arrays
 
 - [Lab 2: Scrabble](/lab2)
 
 - [Problem Set 2: Arrays](/pset2)
-  - [readability](/pset2/readability)
-  - [caesar](/pset2/caesar)
-  - [substitution](/pset2/substitution)
+  - [Readability](/pset2/readability)
+  - [Caesar](/pset2/caesar)
+  - [Substitution](/pset2/substitution)
 
 ## Week 3 - Algorithms
 
 - [Lab 3: Sort](/lab3)
 
 - [Problem Set 3: Algorithms](/pset3)
-  - [plurality](pset3/plurality)
-  - [runoff](pset3/runoff)
-  - [tideman](pset3/tideman)
+  - [Plurality](pset3/plurality)
+  - [Runoff](pset3/runoff)
+  - [Tideman](pset3/tideman)
 
 ## Week 4 - Memory
 
 - [Lab 4: Volume](/lab4)
 
 - [Problem Set 4: Memory](/pset4)
-  - filter :framed_picture:
+  - Filter :framed_picture:
     - [less](/pset4/filter/less)
     - [more](/pset4/filter/more)
-  - [recover](/pset4/recover)
+  - [Recover](/pset4/recover)
+
+## Week 5 - Data Structures
+
+- [Lab 5: Inheritance]
+
+- [Problem Set 5: Data Structures](/pset5)
+    - Speller(/pset5/speller)
+
+
 
 ## Useful resources
 - [CS50x - Harvard](https://cs50.harvard.edu/x/2022/)
