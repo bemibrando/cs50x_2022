@@ -36,6 +36,8 @@
 
 ## Week 4 - Memory
 
+- [Lab 4: Volume](/lab4)
+
 - [Problem Set 4: Memory](/pset4)
   - filter :framed_picture:
     - [less](/pset4/filter/less)
