@@ -1,0 +1,46 @@
+﻿# Pset6 - Cash
+
+Implement a program that calculates the minimum number of coins required to give a user change.
+
+```
+$ python cash.py
+Change owed: 0.41
+4
+```
+
+## Specification
+
+- Write, in a file called `cash.py`, a program that first asks the user how much change is owed and then spits out the minimum number of coins with which said change can be made. You can do this exactly as you did in <a href="https://cs50.harvard.edu/x/2022/psets/1/">Problem Set 1</a>, except that your program this time should be written in Python, and you should assume that the user will input their change in dollars (e.g., 0.50 dollars instead of 50 cents).
+- Use `get_float` from the CS50 Library to get the user’s input and `print` to output your answer. Assume that the only coins available are quarters (25¢), dimes (10¢), nickels (5¢), and pennies (1¢).
+    - We ask that you use `get_float` so that you can handle dollars and cents, albeit sans dollar sign. In other words, if some customer is owed $9.75 (as in the case where a newspaper costs 25¢ but the customer pays with a $10 bill), assume that your program’s input will be `9.75` and not `$9.75` or `975`. However, if some customer is owed $9 exactly, assume that your program’s input will be `9.00` or just `9` but, again, not `$9` or `900`. Of course, by nature of floating-point values, your program will likely work with inputs like `9.0` and `9.000` as well; you need not worry about checking whether the user’s input is “formatted” like money should be.
+- If the user fails to provide a non-negative value, your program should re-prompt the user for a valid amount again and again until the user complies.
+- Incidentally, so that we can automate some tests of your code, we ask that your program’s last line of output be only the minimum number of coins possible: an integer followed by a newline.
+
+## Useful resources
+
+- [CS50x - Pset6: Cash](https://cs50.harvard.edu/x/2022/psets/6/cash/)
+- [CS50x - Pset1](https://cs50.harvard.edu/x/2022/psets/1/)
+
+<br /><br />
+
+## Author
+<div sytle="display: inline-block;">
+    <figure>
+        <a href="https://github.com/bemibrando" target="_blank">
+            <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/102377919?v=4" width="100px" alt="Bianca Emi profile's photo"> <br />
+            <sub style="text-align: center; font-size: 1.4em;"><b>Bianca Emi</b></sub>
+        </a>
+    </figure>
+    <p>Made with ♥ by <a href="https://github.com/bemibrando" target="_blank">Bianca Emi</a> 👋 Get in touch!</p>
+    <div align="start">
+        <a href="https://www.linkedin.com/in/bianca-emi/" target="_blank">
+            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+        </a>   
+        <a href="https://twitter.com/bemibrando" target="_blank">
+            <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">
+        </a>   
+        <a href="mailto: bemi.brando@outlook.com">
+            <img src="https://img.shields.io/badge/bemi.brando@outlook.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white">
+        </a><br/>
+    </div>
+</div>

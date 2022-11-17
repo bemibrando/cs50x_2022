@@ -45,11 +45,24 @@
 
 ## Week 5 - Data Structures
 
-- [Lab 5: Inheritance]
+- [Lab 5: Inheritance](/lab5)
 
 - [Problem Set 5: Data Structures](/pset5)
-    - Speller(/pset5/speller)
+    - [Speller](/pset5/speller)
 
+## Week 6 - Python
+
+- [Lab 6: World Cup](/lab6)
+
+- [Problem Set 5: Python](/pset6)
+    - [Hello](/pset6/hello)
+    - Mario :mushroom:
+        - [Less](/pset6/mario/less)
+        - [More](/pset6/mario/more)
+    - [Cash](pset6/cash)
+    - [Credit](pset6/credit)
+    - [Readability](pset6/readability)
+    - [DNA](pset6/dna)
 
 
 ## Useful resources
