@@ -59,11 +59,15 @@
     - Mario :mushroom:
         - [Less](/pset6/mario/less)
         - [More](/pset6/mario/more)
-    - [Cash](pset6/cash)
-    - [Credit](pset6/credit)
-    - [Readability](pset6/readability)
-    - [DNA](pset6/dna)
+    - [Cash](/pset6/cash)
+    - [Credit](/pset6/credit)
+    - [Readability](/pset6/readability)
+    - [DNA](/pset6/dna)
 
+## Week 7 - SQL
+
+- [Problem Set 7: SQL](/pset7)
+    -[Movies](/pset7/movies)
 
 ## Useful resources
 - [CS50x - Harvard](https://cs50.harvard.edu/x/2022/)
