@@ -66,8 +66,12 @@
 
 ## Week 7 - SQL
 
+- [Lab 7: Songs](/pset7)
+
 - [Problem Set 7: SQL](/pset7)
     -[Movies](/pset7/movies)
+    -[FiftyVille](/pset7/fiftyville)
+
 
 ## Useful resources
 - [CS50x - Harvard](https://cs50.harvard.edu/x/2022/)
