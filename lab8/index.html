@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            
+            document.addEventListener('DOMContentLoaded', function() {
+                const div1 = document.getElementById("qst-1-container");
+                const div2 = document.getElementById("qst-2-container");
+                        
+                let qstOneBtns = div1.querySelectorAll("button");
+                
+                qstOneBtns.forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        if(btn.className == "correct"){
+                            btn.style.backgroundColor = "green";
+                            div1.lastElementChild.innerHTML = "Correct";
+                        }
+                        else{
+                            btn.style.backgroundColor = "red";
+                            div1.lastElementChild.innerHTML = "Incorrect";
+                            
+                        }
+                    })
+                })
+                
+                const submitBtn = document.getElementById("btn-submit");
+    
+                submitBtn.addEventListener("click", function() {
+                    let input = document.getElementById("qst-2");
+                    if(input.value == "1946"){
+                        input.style.backgroundColor = 'green';
+                        div2.lastElementChild.innerHTML = "Correct";
+                    }
+                    else {
+                        input.style.backgroundColor = 'red';
+                        div2.lastElementChild.innerHTML = "Incorrect";
+                    }
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section" id="qst-1-container">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>2 - 2 * 3?</h3>
+                <button class="incorrect" type="submit">0</button>
+                <button class="incorrect" type="submit">3</button>
+                <button class="incorrect" type="submit">1</button>
+                <button class="correct" type="submit">- 4</button>
+                <button class="incorrect" type="submit">- 3</button>
+                <p></p>
+            </div>
+
+            <div class="section" id="qst-2-container">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>In what year was the first computer shown to the world?</h3>
+                <input id="qst-2" type="text"></input>
+                <button id="btn-submit" type="submit">Submit</button>
+                <p></p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -69,8 +69,15 @@
 - [Lab 7: Songs](/pset7)
 
 - [Problem Set 7: SQL](/pset7)
-    -[Movies](/pset7/movies)
-    -[FiftyVille](/pset7/fiftyville)
+    - [Movies](/pset7/movies)
+    - [FiftyVille](/pset7/fiftyville)
+
+## Week 8 - HTML, CSS, JavaScript
+
+- [Lab 8: Trivia](/lab8)
+
+- [Problem Set 8: HTML, CSS, JavaScript](/pset8)
+    - [Homepage](pset8/homepage)
 
 
 ## Useful resources
