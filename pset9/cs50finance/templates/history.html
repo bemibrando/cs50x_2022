@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th class="text-start">Order #</th>
+            <th class="text-start">Symbol</th>
+            <th class="text-start">Name</th>
+            <th class="text-end">Shares</th>
+            <th class="text-end">Price</th>
+            <th class="text-end">Total</th>
+            <th class="text-end">Transacted</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for order in orders %}
+            <tr>
+                <td class="text-start"># {{ loop.index0 + 1}}</td>
+                <td class="text-start">{{ order["symbol"] }}</td>
+                <td class="text-start">{{ order["company_name"] }}</td>
+                <td class="text-end">{{ order["shares"] }}</td>
+                <td class="text-end">{{ order["price"] | usd }}</td>
+                <td class="text-end">
+                    {% if order["order_type_id"]==2 %}
+                        - {{ total_price[loop.index0] | usd}}
+                    {% else %}
+                        {{ total_price[loop.index0] | usd}}
+                    {% endif %}
+                    </td>
+                <td class="text-end">{{ order["date"] }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

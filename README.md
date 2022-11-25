@@ -79,6 +79,14 @@
 - [Problem Set 8: HTML, CSS, JavaScript](/pset8)
     - [Homepage](pset8/homepage)
 
+## Week 9 - Flask
+
+- [Lab 9: Birthdays](/lab9)
+
+- [Problem Set 9: Flask](/pset9)
+    - [C$50 Finance](pset9/cs50finance)
+
+## Week 10 - Emoji
 
 ## Useful resources
 - [CS50x - Harvard](https://cs50.harvard.edu/x/2022/)
