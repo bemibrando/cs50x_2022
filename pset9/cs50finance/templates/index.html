@@ -20,7 +20,7 @@
             <tr>
                 <td class="text-start">{{ symbol["symbol"] }}</td>
                 <td class="text-start">{{ symbol["company_name"] }}</td>
-                <td class="text-end">{{ symbol["shares"] }}</td>
+                <td class="text-end">{{ symbol["own_shares"] }}</td>
                 <td class="text-end">{{ prices[loop.index0] | usd }}</td>
                 <td class="text-end">{{ total_prices[loop.index0] | usd}}</td>
             </tr>
