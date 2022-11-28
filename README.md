@@ -85,9 +85,7 @@
 
 - [Problem Set 9: Flask](/pset9)
     - [C$50 Finance](pset9/cs50finance)
-
-## Week 10 - Emoji
-
+    
 ## Useful resources
 - [CS50x - Harvard](https://cs50.harvard.edu/x/2022/)
 
